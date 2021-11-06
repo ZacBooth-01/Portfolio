@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin: 0px auto;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+}
+
+#title {
+    height: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+
+}
+
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: underline;
+}
+
+
+.mission {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    height: 700px;
+    width: 1200px;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.mission-text h2 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.gallery h4 {
+    margin-top: 25px;
+}
+
+.gallery-pictures {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.gallery-pictures img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.gallery-pictures div {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.locations h2 {
+    position: absolute;
+    top: 40px;
+    margin-left: 520px;
+}
+
+.locations img {
+    width: 1200px;
+    height: 500px;
+}
+
+.address div {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0 20px;
+    position: relative;
+    top: -400px;
+}
+
+.address h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.address p {
+    margin-bottom: 50px;
+}
+
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

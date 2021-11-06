@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Properties */
+
+#navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-logo {
+    background-color: white;
+    height: 70px;
+    width: 10%;
+    z-index: 100;
+}
+
+.navbar-logo img {
+    height: 70px;
+    width: 70px;
+    padding-left: 10%;;
+}
+
+.navbar-links {
+    height: 70px;
+    background-color: white;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.navbar-links li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #2C2828;
+}
+
+@media only screen and (max-width: 768px){
+
+    .navbar-logo {
+        height: 100px;
+        width: 60px;
+        display: none;
+    }
+    .navbar-logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .navbar-links {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .navbar-links li {
+        font-size: 20px;
+        padding: 1px;
+    }
+
+
+}
+
+/* Title Attributes */
+
+.title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 1000px;
+    min-height: 400px;
+    background-color: #2C2828;
+    top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p {
+    font-size: 5vw;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (max-width: 768px){
+    .title {
+        top: 100px;
+    }
+
+    .title p {
+        font-size: 8vw;
+    }
+}
+
+/* About section div structure */
+
+#about {
+    display: inline-flex;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1350px){
+    #about {
+        display: block;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #about {
+        display: block;
+        top: 100px;
+        height: 300px;
+    }
+}
+
+/* About Us Attributes */
+
+.about-us {
+    display: block;
+    width: 40%;
+    justify-content: center;
+
+}
+
+.about-us h1 {
+    color: red;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+}
+
+.about-us .para {
+    text-align: center;
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-us .para p {
+    margin: 10% 0;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .about-us {
+        width: 100%;
+    }
+
+    .about-us .para {
+        line-height: 1.4;
+        width: 80%;
+    }
+
+    .about-us .para p {
+        margin: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .about-us {
+        width: 100%;
+    }
+
+    .about-us .para {
+        line-height: 1.0;
+        width: 90%;
+    }
+
+    .about-us .para p {
+        margin: 40px;
+        font-size: 18px;
+    }
+}
+
+
+/* Gallery Attributes */
+
+#gallery {
+    width: 60%;
+    display: block;
+    text-align: center;
+}
+
+#gallery h1 {
+    color: red;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+#gallery .images {
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#gallery .images img {
+    width: 30%;
+    height: 45%;
+    margin: 1%;
+    
+}
+
+@media only screen and (max-width: 1350px){
+    #gallery {
+        width: 100%;
+        height: 600px;
+    }
+
+    #gallery .images {
+        width: 90%;
+        height: 90%;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #gallery .images img {
+        width: 40%;
+        height: 30%;
+    }
+}
+
+/* Next up section div stucture */
+
+.updates {
+    display: inline-flex;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    
+}
+
+.updates h1 {
+    color: red;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (max-width: 1350px){
+    .updates {
+        display: block;
+        height: 300px;
+        top: 620px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .updates {
+        display: block;
+        top: 700px;
+        height: 200px;
+    }
+}
+
+/* Coming Up Atrributes */
+
+#coming {
+    width: 70%;
+    display: block;
+    text-align: center;
+}
+
+#coming .nextup {
+    width: 90%;
+    height: 80%;
+    text-align: left;
+    display: block;
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1350px) {
+    #coming {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #coming .nextup {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Song Of Week Attributes */
+
+#song {
+    width: 30%;
+    display: block;
+    text-align: center;
+}
+
+#song .image-song {
+    width: 80%;
+    height: 90%;
+    display: block;
+    font-size: 22px;
+    color: red;
+    margin: 0 auto;
+}
+
+#song .image-song p a {
+    color: red;
+}
+
+#song .image-songp {
+    margin-bottom: 10px;
+}
+
+#song .image-song img {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1350px) {
+    #song {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #song .image-song {
+        margin-top: 10px;
+    }
+}
+
+/* Contact us div attributes */
+
+#contact {
+    display: inline-flex;
+    position: relative;
+    top: 140px;
+    width: 100%;
+    height: 300px;
+    background-color: #2C2828 ;
+
+}
+
+#contact h2{
+        color: red;
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (max-width: 1350px){
+    #contact {
+        height: 300px;
+        top: 1100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #contact {
+        top: 1400px;
+        height: 300px;
+    }
+}
+
+/* Address Attibutes */
+
+.address {
+    display: block;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.address p {
+    line-height: 1.5;
+    color: white;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .address {
+        width: 50%;
+    }
+}
+
+/* Map Attributes */
+
+.map {
+    display: block;
+    width: 30%;
+    height: 95%;
+    margin: auto 0;
+}
+
+.map img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .map {
+        display: none;
+    }
+}
+
+/* Contact Details Attributes */
+
+.contact-details {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.contact-details p {
+    line-height: 1.5;
+    color: white;
+    font-size: 22px;
+
+}
+
+@media only screen and (max-width: 1350px) {
+    .contact-details {
+        width: 50%;
+    }
+}
+
+

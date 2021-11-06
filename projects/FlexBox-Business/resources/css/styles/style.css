@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color:#2C2828 ;
+}
+
+/*Header Attributes*/
+
+.header {
+    height: 70px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C2828;
+    position: fixed;
+    margin: 0;
+    z-index: 50;
+}
+
+.header a {
+    height: 90%;
+    margin-left: 5%;
+}
+
+.header img {
+    height: 100%;
+    margin-left: 5%;
+
+}
+
+.nav {
+    display: flex;
+    font-size: 22px;
+    margin-right: 5%;
+
+}
+
+.nav ul {
+    display: flex;
+    padding: 0 10px;
+}
+
+.nav li {
+    display: inline-flex;
+    padding: 0 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    white-space: pre;
+}
+
+/* Title Attributes */
+
+.title {
+    position: relative;
+    top: 70px;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-image: url(../../images/background-image-title.jpg);
+    background-size: cover;
+    font-family: "Roboto Condensed";
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.title h1 {
+    color: white;
+    z-index: 10;
+    font-size: 200px;
+    align-self: center;
+    justify-self: center;
+}
+
+.heading {
+    align-self: flex-end;
+    justify-self: center;
+    margin-bottom: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+/* Products Attributes */
+
+#products-header {
+    position: relative;
+    top: 70px;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+#products .product-section {
+    height: 500px;
+    width: 20%;
+    min-width: 400px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.product-section img {
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+
+.product-section p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* About Us Attributes */
+
+#about-header {
+    font-size: 70px;
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+#about .employees {
+    height: 500px;
+    width: 18%;
+    min-width: 350px;
+    margin-top: 60px;
+}
+
+.employees img {
+    height: 100%;
+    width: 100%;
+}
+
+.employees .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    opacity: 0.6;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 15%;
+    height: 10%;
+}
+
+/* Contact Us Attributes */
+
+#contact-heading {
+    font-size: 70px;
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+
+#contact .map {
+    height: 80%;
+    width: 25%;
+    min-width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#contact .map img {
+    height: 100%;
+    width: 100%;
+}
+
+#contact .location-and-info {
+    
+    min-width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#location {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 25%;
+
+}
+
+/* Footer Attributes */
+
+#footer {
+    display: flex;
+    height: 100px;
+    width: 100%; 
+    font-size: 18px;
+    color: white;
+    justify-content: right;
+    align-items: flex-end;
+}
