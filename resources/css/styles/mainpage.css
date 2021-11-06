@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #2C2828;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+/* Nav Bar Attributes */
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: #3500d3;
+    z-index: 100;
+}
+
+.name {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.name p {
+    color: white;
+    font-size: 32px;
+    padding-left: 4%;
+}
+
+.links {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.links a {
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #2C2828;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #3500d3;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .name p {
+        font-size: 32px;
+    }
+
+    .links a {
+        padding: 10px 20px;
+    }
+}
+
+/* About Section Attributes */
+
+#about {
+    position: relative;
+    top: 60px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+#about .info {
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: block;
+    justify-content: center;
+}
+
+#about .info h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#about .info p {
+    text-align: center;
+    font-size: 26px;
+    line-height: 2;
+    width: 60%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#about .image img {
+    width: 400px;
+    height: 90%;
+}
+
+@media only screen and (max-width: 2400px) {
+    #about .info p {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1870px) {
+    #about .info p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #about .info p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #about .info {
+        width: 100%;
+    }
+
+    #about .info p {
+        font-size: 22px;
+    }
+
+    #about .image {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #about .info p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #about .info p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    #about .info p {
+        font-size: 15px;
+    }
+}
+
+
+
+#projects {
+    width: 100%;
+    height: 700px;
+    top: 80px;
+
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 700px;
+    margin-right: 20px;
+    background: #2C2828;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    border: 1px solid white;
+    display: flex;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .carousel-cell .project-title {
+      width: 100%;
+      height: 100%;
+  }
+
+  .carousel-cell .project-title h3 {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+  }
